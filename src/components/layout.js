@@ -90,7 +90,7 @@ const Layout = ({ children, location }) => {
         <ThemeProvider theme={theme}>
           <GlobalStyle />
 
-          <SkipToContentLink href="#content">Skip to Content</SkipToContentLink>
+          <SkipToContentLink href="#content">Ir para o conteúdo</SkipToContentLink>
 
           {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
