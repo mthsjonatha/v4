@@ -287,7 +287,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Algumas coisas que eu construí
       </h2>
 
       <div>
@@ -299,7 +299,7 @@ const Featured = () => {
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
-                  <p className="project-overline">Featured Project</p>
+                  <p className="project-overline">Projeto Público</p>
                   <h3 className="project-title">{title}</h3>
                   <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
 

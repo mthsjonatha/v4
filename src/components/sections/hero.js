@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 
 const StyledHeroSection = styled.section`
@@ -57,8 +56,10 @@ const Hero = () => {
     </p>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Entrar em contato
+    <a
+      href="https://api.whatsapp.com/send?phone=5584994007234&text=Oi%20Matheus!%20vi%20seu%20site%20e%20queria%20conversar%20com%20voc%C3%AA%20sobre"
+      className="email-link">
+      Mandar um oi no WhatsApp
     </a>
   );
 

@@ -141,22 +141,31 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Oi! Eu sou Matheus, estudante Matemática e divido minha formação com o Hobby de
+              programação.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Gosto de criar aulas inovadores, que sejam um desafio em cada planejamento, integrando
+              o conteúdo da sala de aula com aplicações. Com o uso de tecnologias digitais e o
+              Laboratório de Ensino de Matemática(LEM) complementar a compreenção dos estudantes,
+              tentando sempre desenvolver o pensamento crítico e inovador.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Estou me formando no{' '}
+              <a href="http://portal.ifrn.edu.br/">Instituto Federal do Rio Grande do Norte</a> e
+              como discente faço parte de um projeto chamado{' '}
+              <a href="https://www.instagram.com/monitoriaannway/">Monitoria AnnWay </a>
+              que tem como objetivo auxiliar estudantes dos mais diversos níveis a melhorar sua base
+              matemática, com cursos de curta duração oferecidos online nesse período de pandemia.
+            </p>
+
+            <p>
+              Aqui estão algumas ferramentas com as quais desenvolvo minhas aulas, pesquisas e
+              diversão:
+            </p>
           </div>
 
           <ul className="skills-list">

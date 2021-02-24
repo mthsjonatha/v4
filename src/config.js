@@ -3,8 +3,8 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/mthsjonatha/',
+      name: 'Telegram',
+      url: 'https://t.me/mathjonatha',
     },
     {
       name: 'Instagram',
@@ -18,10 +18,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/mthsjonatha/',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
-    // },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/mthsjonatha/',
+    },
   ],
 
   navLinks: [

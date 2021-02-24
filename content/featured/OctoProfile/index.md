@@ -1,14 +1,14 @@
 ---
 date: '3'
-title: 'OctoProfile'
+title: 'Material PreIF'
 cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/mthsjonatha/prepif_template'
+external: 'https://www.overleaf.com/docs?snip_uri=https://github.com/mthsjonatha/prepif_template/archive/main.zip'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - LaTeX
+  - Figma
+  - Overleaf
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Repositório com modelo em LaTeX para produção de material de matemática do projeto PreIF.

@@ -183,10 +183,10 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Atividades complementares</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        visualizar lista completa
       </Link>
 
       <TransitionGroup className="projects-grid">
@@ -253,7 +253,7 @@ const Projects = () => {
       </TransitionGroup>
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
+        Mostrar {showMore ? 'Menos' : 'Mais'}
       </button>
     </StyledProjectsSection>
   );
