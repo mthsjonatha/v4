@@ -49,11 +49,11 @@ const Hero = () => {
 
   const one = <h1>Oi, meu nome é</h1>;
   const two = <h2 className="big-heading">Matheus Jonatha.</h2>;
-  const three = <h3 className="big-heading">Eu ensino matemática por aí.</h3>;
+  const three = <h3 className="big-heading">Eu ensino Matemática por aí.</h3>;
   const four = (
     <p>
-      Sou licenciando em matemática no Instituto Federal do RN, amante da tecnologia e que fica
-      mexendo em códigos nas horas vagas.
+      Sou licenciando em matemática no Instituto Federal do RN, amante de tecnologia da informação e
+      fica mexendo em códigos nas horas vagas.
     </p>
   );
   const five = (
